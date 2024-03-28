@@ -1,0 +1,4 @@
+ema_callback:
+  _target_: src.utils.callbacks.EMACallback
+  decay: 0.9
+  validate_original_weights: True

@@ -1,0 +1,11 @@
+_target_: src.data.LIDC_datamodule.LIDCDataModule
+nodule_dir: /data/AI/ngocpt/Lang/12032024_451_Nhombenh_252_Nhomchung/Image
+clean_dir: /data/AI/ngocpt/Lang/12032024_451_Nhombenh_252_Nhomchung/Clean/Image
+train_val_test_split: [8, 1, 1]
+batch_size: 32
+num_workers: 4
+pin_memory: True
+# num_nodule: 5000
+# num_clean: 5000
+img_size: [352, 352]
+# img_size: [256,256]
