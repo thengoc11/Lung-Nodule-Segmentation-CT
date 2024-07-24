@@ -41,7 +41,6 @@ All the dependencies can be installed using the provided requirements.txt file.
 ```
 # before training, set env WANDB_API_KEY to log with wandb logger
 export WANDB_API_KEY = ${WANDB_API_KEY}
-export WANDB_API_KEY=fb17d703cc5575ffbaee6f0360e04276641309c3
 # train on one GPU
 python src/train.py trainer=gpu logger=wandb
 
